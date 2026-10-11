@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#searchBox {
+    width: 60%;
+    max-width: 600px;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+.book-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.book-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.read {
+    background: #1976d2;
+}
+
+.download {
+    background: #388e3c;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
